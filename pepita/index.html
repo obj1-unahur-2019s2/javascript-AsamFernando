@@ -16,14 +16,20 @@
         
                 <p>Un ejemplo de cómo manipular a Pepita con JS</p>
             </div>
-
+        <img src="imagenPepita()" alt="Smiley face" height="42" width="42">
             <div>
                 <div class="form-group">
                     <label>Energía: </label>
                     <label id="energia">0</label>
+                    <form action="form-group">
+                        alpiste: <input type="number" name="alp" id="cantAlp"><br>
+                        mondongo: <input type="number" name="mon" id="cantMon"><br>
+                        kms: <input type="number" name="trayecto" id="volarKms"><br>
+                    </form>
                 </div>
-                <button onclick="darleComidaAPepita()" class="btn btn-primary">Comer</button>
-                <button class="btn btn-success">Volar</button>
+                <button onclick="darleComidaAPepita()" class="btn btn-primary">ComerAlpiste</button>
+                <button onclick="comerMondongo()" class="btn btn-primary">ComerMondongo</button>
+                <button onclick="pepitaVolar()" class="btn btn-success">Volar</button>
             </div>
         </div>     
     </body>
